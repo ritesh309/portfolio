@@ -17,7 +17,7 @@ import Switch from '@material-ui/core/Switch'
 const App = () => {
   const [theme, setTheme] = useState( 'dark-theme' );
   const [checked, setChecked] = useState( false );
-  const [navToggle, setNavToggle] = useState( false );
+  const [navToggle, setNavToggle] = useState( true );
 
   useEffect( () => {
     document.documentElement.className = theme;
